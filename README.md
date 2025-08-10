@@ -50,8 +50,8 @@ TradeNest/
 │ │ ├── axiosinstance.js  
 │ │   
 │  
-├── README.md  
-├──assets/  
+├── README.md    
+ 
 
 
 # DEMO IMAGES
@@ -62,7 +62,7 @@ TradeNest/
 ### Register 
 ![Registerpage](https://github.com/user-attachments/assets/49efe5ce-5b8b-4a10-b6f3-49872dcc393b)
 
-### Login page
+### Login 
 ![Loginpage](https://github.com/user-attachments/assets/40c5b786-2b8f-42be-b002-d3bed1e0a761)
 
 ### Dashboard01

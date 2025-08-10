@@ -33,7 +33,7 @@ const RazorpayButton = () => {
 
       // 2. Open Razorpay Checkout
       const options = {
-        key: "rzp_test_pvog2SGmKuLbWm", // Replace with your Razorpay test key
+        key: process.env.REACT_APP_KEY_ID, // Replace with your Razorpay test key
         amount: amount,
         currency: "INR",
         name: "TradeNest",

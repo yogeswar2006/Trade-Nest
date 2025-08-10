@@ -11,7 +11,7 @@ It provides a seamless marketplace experience where users can post products,add 
 - **Search & Filters** – Find products by category, price range, or description.
 - **Wishlist & Cart** – Save favorite items and add products to cart for purchase.
 - **Payment Integration** – Secure checkout with Razorpay.(IN TEST MODE)
-- **Responsive UI** – desktop design using React.
+- **Responsive UI** – desktop design using React(VITE).
 - **Backend API** – Django-powered REST APIs for data handling.(Django_Rest_Framework)
 - **Return & Refund Policy** – Built-in guidelines for user trust.
 - **Terms & Conditions / Privacy Policy** – Integrated compliance pages.
@@ -33,33 +33,33 @@ It provides a seamless marketplace experience where users can post products,add 
 
 ## 📂 Project Structure
 
-TradeNest/
-│
-├── backend/ # Django backend
-│ ├── manage.py
-│ ├── TradeNest/ # Main settings & URLs
-│ ├── products/ # Products app
-│ ├── api/ # connections with frontend 
-│ └── accounts/ # User registration app
-│
-├── frontend/ # React frontend
-│ ├── src/
-│ │ ├── components/
-│ │ ├── assets/
-│ │ ├── App.jsx
-│ │ ├── axiosinstance.js
-│ │ 
-│
-├── README.md
-├──assets/
+TradeNest/  
+│  
+├── backend/ # Django backend  
+│ ├── manage.py  
+│ ├── TradeNest/ # Main settings & URLs  
+│ ├── products/ # Products app  
+│ ├── api/ # connections with frontend   
+│ └── accounts/ # User registration app  
+│  
+├── frontend/ # React frontend  
+│ ├── src/  
+│ │ ├── components/  
+│ │ ├── assets/  
+│ │ ├── App.jsx  
+│ │ ├── axiosinstance.js  
+│ │   
+│  
+├── README.md  
+├──assets/  
 
 
 # DEMO IMAGES
 
-### Home Page
+### Home 
 ![Homepage](https://github.com/user-attachments/assets/56b0cc4b-db64-4cb5-b225-c867721afdf2) 
 
-### Register Page
+### Register 
 ![Registerpage](https://github.com/user-attachments/assets/49efe5ce-5b8b-4a10-b6f3-49872dcc393b)
 
 ### Login page
@@ -74,22 +74,22 @@ TradeNest/
 ### Menu bar
 ![Menu](https://github.com/user-attachments/assets/1a581aa6-2fb5-4f46-a7a0-958817a1c1a0)
 
-### Sell page
+### Sell 
 ![Sellpage](https://github.com/user-attachments/assets/34e53575-3f1a-4460-be8e-474389934243)
 
-### Myproducts page
+### Myproducts 
 ![MyProducts](https://github.com/user-attachments/assets/c67aade9-6243-460f-9e65-cab5eb544d93)
 
-### Cart page
+### Cart 
 ![Cartpage](https://github.com/user-attachments/assets/1d579bde-ba04-4ab0-8b55-ab2dcbecda0e)
 
-### Contact page
+### Contact 
 ![Contactpage](https://github.com/user-attachments/assets/f5f2e062-0448-4c85-bbda-4f630f1a518c)
 
-### Payment page
+### Payment 
 ![Paymentpage](https://github.com/user-attachments/assets/bafb5400-748e-4e69-be32-c17ed6e556bf)
 
-### Razorpay popup
+### Razorpay 
 ![RazorpayPopUP](https://github.com/user-attachments/assets/8de475b7-e22a-4b85-b197-6892651cd94d)
 
 
@@ -98,8 +98,8 @@ TradeNest/
 ```bash
 ### 1️⃣ Clone the Repository
 
-git clone https://github.com/yogeswar2006/trade-nest.git
-cd trade-nest 
+git clone https://github.com/yogeswar2006/Trade-Nest.git
+cd Trade-Nest 
 
 ### 2️⃣ Backend Setup
 cd backend
@@ -127,14 +127,14 @@ open port http://localhost:5173/  in your browser
 ```
 🔑 **Environment Variables**
 
-create a .env file in backend (optional)
-   -SECRET_KEY=your_django_secret
-   -DEBUG=True
-   -RAZORPAY_KEY_ID=rzp_test_xxxxxxxxxxxx   (replace yours)
-   -RAZORPAY_KEY_SECRET=xxxxxxxxxxxxxxxx    (replace yours)
+- create a .env file in backend (optional)  
+   -SECRET_KEY=your_django_secret  
+   -DEBUG=True  
+   -RAZORPAY_KEY_ID=rzp_test_xxxxxxxxxxxx   (replace yours)  
+   -RAZORPAY_KEY_SECRET=xxxxxxxxxxxxxxxx    (replace yours)  
 
 
-(**NOTE**:Payment flow is optional if u dont want to integrate your payment option , for that u need to create a account in razorpay)
+(**NOTE**:Payment flow is optional if u dont want to integrate your payment option , for that u need to create a account in razorpay)  
 💳 **Payment Flow**            
 1. User adds products to cart
 2. User needs to enter delivery addess
@@ -144,9 +144,9 @@ create a .env file in backend (optional)
 6. User receives confirmation.
 
 
-📈 **Future Enhancements**
- &#9679; Live chat between buyers & sellers.
- &#9679; Multi-image uploads for listings.
- &#9679; Advanced analytics for sellers.
- &#9679; Push notifications for offers.
+📈 **Future Enhancements**  
+ &#9679; Live chat between buyers & sellers.  
+ &#9679; Multi-image uploads for listings.  
+ &#9679; Advanced analytics for sellers.  
+ &#9679; Push notifications for offers.  
 

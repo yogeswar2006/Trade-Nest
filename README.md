@@ -125,7 +125,7 @@ open port http://localhost:5173/  in your browser
 
      ------ SEE THE MAGIC😊 ------
 ```
-🔑 **Environment Variables**
+## 🔑 Environment Variables  
 
 - create a .env file in backend (optional)  
    -SECRET_KEY=your_django_secret  
@@ -135,7 +135,7 @@ open port http://localhost:5173/  in your browser
 
 
 (**NOTE**:Payment flow is optional if u dont want to integrate your payment option , for that u need to create a account in razorpay)  
-💳 **Payment Flow**            
+## 💳 Payment Flow             
 1. User adds products to cart
 2. User needs to enter delivery addess
 3. User needs to verify thier products listings and payment money
@@ -143,8 +143,7 @@ open port http://localhost:5173/  in your browser
 5. Backend verifies payment and stores order details.
 6. User receives confirmation.
 
-
-📈 **Future Enhancements**  
+## 📈 Future Enhancements 
  &#9679; Live chat between buyers & sellers.  
  &#9679; Multi-image uploads for listings.  
  &#9679; Advanced analytics for sellers.  

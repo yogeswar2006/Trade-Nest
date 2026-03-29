@@ -3,6 +3,7 @@ import axiosInstance from "../../axiosinstance";
 import { Link } from "react-router-dom";
 import { useContext } from "react";
 import { Authcontext } from "../Authprovider";
+import logo from "../../assets/images/logo.png"
 
 import {formatDistanceToNow} from 'date-fns'
 
@@ -79,7 +80,7 @@ function MyProducts() {
           <div className="dashboard-nav-profile">
             <Link >
               <img
-                src="src/assets/images/logo.png"
+                src={logo}
                 width={40}
                 height={40}
                 className="img"

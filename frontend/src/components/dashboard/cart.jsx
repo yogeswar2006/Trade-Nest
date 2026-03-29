@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { useContext,createContext } from "react";
 import { Authcontext } from "../Authprovider";
 import RazorpayButton from "./razorpay";
-
+import logo from "../../assets/images/logo.png"
 
 
 
@@ -103,7 +103,7 @@ function Cart() {
           <div className="dashboard-nav-profile">
             <Link >
               <img
-                src="src/assets/images/logo.png"
+                src={logo}
                 width={40}
                 height={40}
                 className="img"

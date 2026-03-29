@@ -5,6 +5,13 @@ import { Link } from "react-router-dom";
 import { useContext } from "react";
 import { Authcontext } from "../Authprovider";
 import Button from "../Button";
+import slider2 from "../../assets/images/bg-slider2.jpg"
+import slider3 from "../../assets/images/bg-slider3.avif"
+import slider4 from "../../assets/images/bg-slider4.jpg"
+import logo from "../../assets/images/logo.png"
+import userProfile from "../../assets/images/bg-user-profile-img.jpg"
+
+
 
 function Dashboard() {
 
@@ -84,7 +91,7 @@ function Dashboard() {
           <div className="dashboard-nav-profile">
             <Link >
               <img
-                src="src/assets/images/logo.png"
+                src={logo}
                 width={40}
                 height={40}
                 className="img"
@@ -209,7 +216,7 @@ function Dashboard() {
           </div>
           <div class="carousel-inner">
             <div className="carousel-item active images" data-bs-interval="10000">
-              <img src="src/assets/images/bg-slider3.avif" class="d-block w-100" alt="..."  className="slider" />
+              <img src={slider3} class="d-block w-100" alt="..."  className="slider" />
               <div className="carousel-caption d-none d-md-block  ">
                 {/* <h1 >BUY</h1>
                 <p>
@@ -218,7 +225,7 @@ function Dashboard() {
               </div>
             </div>
             <div className="carousel-item images" data-bs-interval="2000">
-              <img src="src/assets/images/bg-slider4.jpg" class="d-block w-100" alt="..." className="slider" />
+              <img src={slider4} class="d-block w-100" alt="..." className="slider" />
               <div className="carousel-caption d-none d-md-block ">
                 {/* <h1>SELL</h1>
                 <p>
@@ -227,7 +234,7 @@ function Dashboard() {
               </div>
             </div>
             <div   className="carousel-item images">
-              <img src="src/assets/images/bg-slider2.jpg" class="d-block w-100" alt="..."  className="slider" />
+              <img src={slider2} class="d-block w-100" alt="..."  className="slider" />
               <div className="carousel-caption d-none d-md-block ">
                 {/* <h1>EXHANGE</h1>
                 <p>

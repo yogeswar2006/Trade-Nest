@@ -3,7 +3,6 @@ import axiosInstance from '../../axiosinstance';
 import { useEffect,useState,useContext } from 'react';
 import { Link } from 'react-router-dom';
 
-
 const RazorpayButton = () => {
 
    const [cart, setCart] = useState([]);
@@ -28,12 +27,13 @@ const RazorpayButton = () => {
   const handlePayment = async () => {
     try {
       // 1. Call Django to create order
-      const res = await axiosInstance.get("https://a45ce98cc70e.ngrok-free.app/api/create_order/");
+      const res = await axiosInstance.get("https://363b455caef8.ngrok-free.app/api/create_order/");
       const { id: order_id, amount } = res.data;
 
-      // 2. Open Razorpay Checkout
+      // 2. Open Razorpay Checkout\
+      console.log(import.meta.env.VITE_APP_KEY_ID)
       const options = {
-        key: process.env.REACT_APP_KEY_ID, // Replace with your Razorpay test key
+        key: import.meta.env.VITE_APP_KEY_ID, // Replace with your Razorpay test key
         amount: amount,
         currency: "INR",
         name: "TradeNest",

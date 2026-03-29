@@ -26,7 +26,7 @@ function LoginPage(){
     const UserData={username,password}
 
     try{
-        const response=await axios.post('http://127.0.0.1:8000/api/token/',UserData)
+        const response=await axios.post('https://trade-nest-wqc8.onrender.com/api/token/',UserData)
         localStorage.setItem('accessToken',response.data.access)
         localStorage.setItem('refreshToken',response.data.refresh)
        

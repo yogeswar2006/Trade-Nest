@@ -23,7 +23,7 @@ function RegisterPage(){
 
     // console.log(UserData)
     try{
-        const response=await axios.post('http://127.0.0.1:8000/api/register/',UserData)
+        const response=await axios.post('https://trade-nest-wqc8.onrender.com/api/register/',UserData)
         
         setErrors({})
         setSuccesMessage('Successfully registered!✅')

@@ -1,0 +1,179 @@
+body{
+
+    background-color: #232526;
+}
+.bg-dark-color{
+    background-color:  #2b3035;
+}
+#root{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding-top: 4px;
+    padding-bottom: 4px;
+
+}
+.container{
+    flex: 1;
+}
+.form-container{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+   
+}
+.register-inputs{
+    width: 40%;
+    margin-bottom: 3px;
+    height: 40px;
+    border-radius: 5px;
+}
+.submit-btn{
+    width: 90px;
+}
+.register-div{
+    max-width: auto;
+}
+.dashboard-nav-profile{
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+}
+.div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.sell-inner{
+    padding: 40px;
+    border-radius: 10px;
+}
+.col{
+    width: 200px;
+   
+}
+.offcanvas-body{
+    display: flex;
+    flex-direction: column;
+   gap: 4px;
+   
+}
+.offcanvas{
+    width: 300px;
+}
+.offcanvas-btn{
+    width:auto;
+    border: none;
+    border-radius: 4px;
+    text-align: start;
+    background-color: #2b3035;
+       text-decoration: none;
+}
+.offcanvas-btn:hover{
+    background-color: rgba(240, 248, 255, 0.336);
+ 
+    
+
+}
+
+.NavBar{
+    position: fixed;
+    z-index: 1000;
+   width: 100%;
+   top: 0;
+    
+    
+}
+.slider-react{
+    margin-top: 50px;
+}
+.cart-img{
+    width:200px ;
+    border-radius: 10px;
+    height: 175px;
+}
+.card-img-top{
+    width: 100%;
+    height: 200px;
+}
+.cart-item-outline{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 5px;
+}
+.cart-item-inline{
+    display: flex;
+   
+    gap: 10px;
+    
+}
+.cart-item-data{
+    display: flex;
+    flex-direction: column;
+
+}
+.price-content{
+    padding: 50px;
+    border-radius: 5px;
+    
+}
+.cart-main{
+    max-height: 575px ;
+    overflow: auto;
+    scroll-behavior: smooth;
+    scrollbar-width: thin;
+    scrollbar-color: #bda5a5 #0000004f; 
+}
+.slider{
+
+    height: 500px;
+    width: 80%;
+    border-radius: 5px;
+   display: block;
+   margin: 0 auto;
+}
+body{
+    overflow: auto;
+}
+.contactinfo-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 15px;
+    border-radius: 5px;
+    
+}
+.input{
+    width: 400px;
+    height: 40px;
+    border-radius: 5px;
+
+}
+.payment-details{
+     max-height: 575px ;
+    overflow: auto;
+    scroll-behavior: smooth;
+    scrollbar-width: thin;
+    scrollbar-color: #bda5a5 #0000004f; 
+    margin-bottom: 5px;
+}
+.img{
+    border-radius: 10px;
+}
+.pay-btns{
+    display: flex;
+    gap: 5px;
+}
+.logo-main{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  
+}
+

@@ -9,7 +9,7 @@ import slider2 from "../../assets/images/bg-slider2.jpg"
 import slider3 from "../../assets/images/bg-slider3.avif"
 import slider4 from "../../assets/images/bg-slider4.jpg"
 import logo from "../../assets/images/logo.png"
-import userProfile from "../../assets/images/bg-user-profile-img.jpg"
+import userProfile from "../../assets/images/user-profile-img.jpg"
 
 
 

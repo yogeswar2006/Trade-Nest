@@ -2,6 +2,7 @@ import Button from "./Button";
 import { Link } from "react-router-dom";
 import { useContext } from "react";
 import { Authcontext } from "./Authprovider";
+import logo from "../assets/images/logo.png"
 
 function Header() {
 
@@ -22,7 +23,7 @@ function Header() {
               <div className="logo-main text-light">
                <Link >
               <img 
-                src="src/assets/images/logo.png"
+                src={logo}
                 width={40}
                 height={40}
                 className="img"
